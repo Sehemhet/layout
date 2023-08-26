@@ -47,9 +47,6 @@ li {
     font-weight:500;
     font-size:20px;
 }
-.a_special {
-    color: var(--a_special);
-}
 p {
     color: var(--text);
     font-family:'Roboto';

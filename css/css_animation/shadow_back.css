@@ -1,5 +1,3 @@
-
-/* добавление тени шапке при скроле страницы */
 .shadow_back {
     display:flex;
     background:rgba(255,255,255,0.8);

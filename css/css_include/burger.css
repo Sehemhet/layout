@@ -21,7 +21,6 @@
     background:var(--back0);
     top:0;
     z-index:99;
-    transition: .5s all linear;
     padding:20px;
 }
 .burger__add .header__item {

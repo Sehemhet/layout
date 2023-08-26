@@ -3,8 +3,14 @@
     justify-content:center;
     align-items:center;
     height:100%;
-    background:var(--opacity);
+    background:var(--back_pag);
     width:100%;
+}
+.pag:hover {
+    background:var(--back_pag_hover);
+}
+.pag:active  {
+    background:var(--back_pag_active);
 }
 .pag span {
     font-size:40px;

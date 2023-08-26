@@ -11,8 +11,13 @@
     --back1: rgba(220,220,220,0.8);
     --back2: rgba(150,150,150,0.8);
     --back3: rgba(50,50,50,1);
+    --back_modal: rgba(10,10,10,0.8);
     --back_link: rgba(0, 103, 184,1);
     --opacity: rgba(0,0,0,0.2);
+
+    --back_pag: rgba(0,0,0,0.3);
+    --back_pag_hover: rgba(0,0,0,0.5);
+    --back_pag_active: rgba(0,0,0,0.7);
 
     --a_special: rgba(255, 255, 255,1);
     --a_hover: rgba();
