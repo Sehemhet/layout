@@ -1,0 +1,12 @@
+.pag {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    background:var(--opacity);
+    width:100%;
+}
+.pag span {
+    font-size:40px;
+    color:var(--back_link);
+}

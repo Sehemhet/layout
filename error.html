@@ -1,0 +1,277 @@
+<!--index-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="add_shadow">
+    <div class="header__in">
+        <div class="header__item _logo">
+            <div class="icon">
+                <a class="icon__a" href="index.html">
+                    <img class="icon__img" src="./img/logo.webp" alt="logo">
+                </a>
+            </div>
+            <div class="header__cross" onclick="closeBurger()">
+                <div class="cross  hover">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="header__item _nav">
+            <nav class="header__nav">
+                <ul class="nav_ul header__ul">
+                    <li class="nav_li header__li">
+                        <a class="nav_a header__a underline" href="index.html">
+                                    <span class="">
+                                        Главная
+                                    </span>
+                        </a>
+                    </li>
+                    <li class="nav_li header__li">
+                        <a class="nav_a header__a underline" href="post_list.html">
+                                    <span class="">
+                                        Посты
+                                    </span>
+                        </a>
+                    </li>
+                    <li class="nav_li header__li">
+                        <a class="nav_a header__a underline" href="about.html">
+                                    <span class="">
+                                        О нас
+                                    </span>
+                        </a>
+                    </li>
+                    <li class="nav_li header__li">
+                        <a class="nav_a header__a underline" href="gallery.html">
+                                    <span class="">
+                                        Галерея
+                                    </span>
+                        </a>
+                    </li>
+                    <li class="nav_li header__li">
+                        <a class="nav_a header__a underline" href="contact.html">
+                                    <span class="">
+                                        Контакты
+                                    </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__item _source">
+            <form class="form form__source" action="" method="post">
+                <input type="text">
+                <div class="icon hover" onclick="openSource()">
+                    <img src="./img/icon/loop.webp" alt="">
+                </div>
+            </form>
+        </div>
+        <div class="header__item _callback">
+            <div class="icon hover" onclick="openModal('callback')">
+                <img class="icon_img" src="./img/icon/mail.webp" alt="">
+            </div>
+        </div>
+        <div class="header__item _login">
+            <div class="f f__around f__center gap10">
+                <div class="icon hover __login" onclick="openModal('login')">
+                    <img class="icon_img" src="./img/icon/enter.webp" alt="">
+                </div>
+                <div class="icon hover __register" onclick="openModal('register')">
+                    <img class="icon_img" src="./img/icon/user_add.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__item _burger" onclick="openBurger()">
+            <div class="burger hover">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="main__in">
+
+        <div class="main__item  main__image f f__column f__center gap10 f__align">
+            <div class="title w50 f">
+                <h1 class="shadow_back">
+                    Здесь номер ошибки
+                </h1>
+            </div>
+            <div class="content w50 f underline underline_25">
+                <h4 class="shadow_back border ">
+                    <a class="" href="index.html">
+                        вернуться на главную страницу
+                    </a>
+                </h4>
+            </div>
+            <img class="" src="./img/wallpaper_about.webp" alt="">
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div class="modal">
+        <div class="modal__in">
+            <form class="form f__column form__login" action="">
+                <input type="text" placeholder="Логин">
+                <input type="password" placeholder="Пароль">
+                <button class="hover" type="submit">
+                    Логин
+                </button>
+                <div class="f gap10">
+                    <button class="hover" type="submit">
+                        Не помню
+                    </button>
+                    <button class="hover" type="submit">
+                        X
+                    </button>
+                </div>
+            </form>
+            <form class="form f__column form__register" action="">
+                <input type="text" placeholder="Логин">
+                <input type="email" placeholder="email">
+                <input type="text" placeholder="Имя">
+                <input type="tel" placeholder="Телефон">
+                <input type="password" placeholder="Пароль">
+                <input type="password" placeholder="Повторить пароль">
+                <button class="hover" type="submit">
+                    Регистрация
+                </button>
+                <button class="hover" type="submit" onclick="closeModal()">
+                    X
+                </button>
+            </form>
+            <form class="form f__column form__callback" action="">
+                <input type="text" placeholder="Имя">
+                <input type="email" placeholder="email">
+                <input type="tel" placeholder="Телефон">
+                <textarea name="text" id="" cols="30" rows="15" placeholder="Введите текст"></textarea>
+                <button class="hover" type="submit">
+                    Отправить
+                </button>
+                <button class="hover" type="submit" onclick="closeModal()">
+                    X
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="footer__in padding20tb">
+        <div class="footer__item">
+            <div class="f f__column gap10">
+                <div class="chapter">
+                    <h4>
+                        Приоритеты
+                    </h4>
+                </div>
+                <div class="">
+                    <ul class="f f__column gap20">
+                        <li>
+                            <span>
+                                Качество
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Время
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Цена
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__item">
+            <div class="f f__column gap10">
+                <div class="chapter">
+                    <h4>
+                        Права
+                    </h4>
+                </div>
+                <div class="">
+                    <ul class="f f__column gap20">
+                        <li>
+                            <span>
+                                Я название
+                            </span>
+                        </li>
+                        <li>
+                            <a href="privacy.html">
+                                <span class="underline underline_25">
+                                    Privacy policy
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <span>
+                                copyright notice
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Copyright © 2023
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                All the rights reserved
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__item">
+            <div class="f f__column gap10">
+                <div class="chapter">
+                    <h4>
+                        Мы в интернете
+                    </h4>
+                </div>
+                <div class="icon__wrap">
+                    <div class="icon hover">
+                        <a class="icon__a" href="profile.html">
+                            <img class="icon__img" src="img/icon/user.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="icon hover">
+                        <a class="icon__a" href="">
+                            <img class="icon__img" src="img/icon/mail.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="icon hover">
+                        <a class="icon__a" href="">
+                            <img class="icon__img" src="img/icon/mail2.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="icon hover">
+                        <a class="icon__a" href="">
+                            <img class="icon__img" src="img/icon/enter.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="icon hover">
+                        <a class="icon__a" href="">
+                            <img class="icon__img" src="img/icon/exit.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./js/script.js"></script>
+</body>
+</html>

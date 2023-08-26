@@ -1,0 +1,11 @@
+.gallery__img {
+    height:200px;
+    flex:1 1 200px;
+}
+.gallery__img:nth-child(even) {
+    flex:1 1 500px;
+}
+
+
+
+

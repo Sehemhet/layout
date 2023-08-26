@@ -1,0 +1,17 @@
+.anim__down_rotate_l {
+    transform:translateY(100%) rotate(45deg);
+}
+.anim__down_rotate_r {
+    transform:translateY(100%) rotate(-45deg);
+}
+
+.anim__left_rotate_l {
+    transform:translateX(100%) rotate(45deg);
+}
+.anim__right_rotate_r {
+    transform:translateX(-100%) rotate(-45deg);
+}
+
+.anim__back {
+    transform:translate(0%,0%) rotate(0deg);
+}

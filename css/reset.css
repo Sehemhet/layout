@@ -1,0 +1,45 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+    background-image: url('../img/wallpaper.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img {
+    height:100%;
+    width:100%;
+}
+form {
+    height:100%;
+    width:100%;
+}
+input, button {
+    font-size:16px;
+    width:100%;
+}
+a,h1,h2,h3,h4,h5,h6,span,p {
+    text-decoration:none;
+    color: inherit;
+    overflow: auto;
+    word-break: break-word;
+}
+* {
+    transition:0.8s all ease;
+}
+input {
+    outline:none;
+}
+ul {
+    padding-left:30px;
+}
+header ul,
+footer ul {
+    list-style:none;
+    padding-left:0px;
+}
+

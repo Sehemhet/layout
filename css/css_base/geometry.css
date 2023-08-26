@@ -1,0 +1,28 @@
+.w100 {
+    width:100%;
+}
+.w75 {
+    width:75%;
+}
+.w50 {
+    width:50%;
+}
+.h100px {
+    height:100px;
+}
+.h200px {
+    height:200px;
+}
+.h300px {
+    height:300px;
+}
+.max_h300px {
+    max-height:300px;
+}
+.padding20tb {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.height100 {
+    height:100%;
+}

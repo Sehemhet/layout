@@ -1,0 +1,14 @@
+.clickLoop__active {
+  position: fixed;
+  z-index: 9999999;
+  left: 0;
+  top: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover;
+  & img {
+    object-fit: contain;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+}

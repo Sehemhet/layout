@@ -1,0 +1,42 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Mak';
+    font-style: normal;
+    font-weight: 300;
+    src:    url('./fonts/MAK.woff') format('woff'),
+            url('./fonts/MAK-bold.woff') format('woff');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/roboto-v30-cyrillic_latin-300.woff2') format('woff2'),
+       url('./fonts/roboto-v30-cyrillic_latin-300.woff') format('woff');
+}
+@font-face {
+	font-family: "Raleway Light";
+    src: url("./fonts/raleway-light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway Bold";
+    src: url("./fonts/Raleway-Bold.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway Regular";
+    src: url("./fonts/Raleway-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Montserrat ExtraBold";
+	src: url("./fonts/montserrat-extrabold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+

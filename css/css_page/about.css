@@ -1,0 +1,16 @@
+.pag__left,
+ .pag__right {
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:40px;
+}
+.pag__left {
+    left:0;
+    top:0;
+}
+.pag__right {
+    right:0;
+    top:0;
+}

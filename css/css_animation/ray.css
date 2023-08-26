@@ -1,0 +1,7 @@
+/*  */
+.ray {
+    display:flex;
+    min-height:100%;
+    flex:1 1 auto;
+    border-bottom:2px solid var(--back3);
+}

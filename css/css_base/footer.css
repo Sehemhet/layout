@@ -1,0 +1,29 @@
+footer {
+    width: 100%;
+    background: var(--footer_back);
+    padding:10px;
+}
+.footer__in {
+    min-height:5vh;
+    display:flex;
+    justify-content:space-around;
+    max-width:1280px;
+    margin:0 auto;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.footer__in h4 {
+    color: var(--footer_chapter);
+}
+.footer__in span,
+.footer__in p,
+.footer__in li {
+    color: var(--footer_text);
+}
+
+.footer__item {
+    flex:1 1 300px;
+    display:flex;
+    padding-bottom:20px;
+    border-bottom:2px solid var(--back0);
+}

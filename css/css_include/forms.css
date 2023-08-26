@@ -1,0 +1,50 @@
+form {
+    display:flex;
+    border-radius:5px;
+    padding:5px;
+    gap:20px;
+    width:100%;
+}
+
+input, button, textarea {
+    display:flex;
+    color: var(--text);
+    font-weight:400;
+    font-family:'Roboto';
+    border-radius:5px;
+    width:100%;
+    background: var(--back0);
+    height:100%;
+    font-size:16px;
+    justify-content:space-around;
+    padding:5px;
+}
+input::placeholder {
+    font-family:'Roboto';
+    color: var(--text);
+    font-size:16px;
+}
+textarea::placeholder {
+    font-family:'Roboto';
+    color: var(--text);
+    font-size:16px;
+}
+
+.form__login {
+    display:none;
+}
+.form__register {
+    display:none;
+}
+.form__callback {
+    display:none;
+}
+.form__source {
+    justify-content:flex-end;
+}
+.form__source input {
+    display:none;
+}
+.source__active {
+    display:flex;
+}

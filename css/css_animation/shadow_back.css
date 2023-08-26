@@ -1,0 +1,8 @@
+
+/* добавление тени шапке при скроле страницы */
+.shadow_back {
+    display:flex;
+    background:rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 30px 30px rgba(255,255,255,0.8);
+    color:var(--text);
+}
