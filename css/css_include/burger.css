@@ -44,14 +44,25 @@
 .burger__add ._source {
     flex: 0 0 40px;
 }
+.burger__add ._callback {
+    justify-content:flex-end;
+    width:100%;
+}
+
 .burger__add ._burger {
     display:none;
 }
 .burger__add ._login {
-    justify-content:center;
+    justify-content:flex-end;
+    width:100%;
+    & * {
+        justify-content:flex-end;
+
+    }
 }
 .burger__add ._logo {
-    justify-content:space-between;
+    justify-content: space-around;
+    flex:1 1 30%;
 }
 .burger__add .header__cross {
     display:flex;

@@ -16,6 +16,9 @@
 .f__between {
     justify-content:space-between;
 }
+.f__end {
+    justify-content:flex-end;
+}
 .f__center {
     justify-content:center;
 }
