@@ -8,12 +8,12 @@
     height:100vh;
     z-index:100;
     align-items:center;
-    background:var(--back_modal);
+    background:var(--modal_back);
 }
 .modal__in {
     margin:0 auto;
     padding:5px;
-    background:var(--back_modal);
+    background:var(--modal_back);
     border-radius:5px;
 }
 .modal__active {

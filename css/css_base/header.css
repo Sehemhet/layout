@@ -11,20 +11,12 @@ header {
     align-items:center;
     max-width:1280px;
     margin:0 auto;
-    gap:10px;
+    gap:5px;
     width: 100%;
-    background:;
+    background:var(--header_back);
     position:relative;
 }
-.header__in::after {
-    content:'';
-    display:flex;
-    height:2px;
-    width:100%;
-    background:var(--back2);
-    position:absolute;
-    bottom:-2px;
-}
+
 .header__item {
     display:flex;
     align-items:center;
@@ -34,16 +26,18 @@ header {
     display:flex;
     align-items:center;
     justify-content:space-around;
-    gap:30px;
+    gap:5px;
 }
 .header__a {
     font-size: 18px;
-    color: var(--text);
+    color: var(--header_text);
     white-space: nowrap;
     padding-top:5px;
     padding-bottom:5px;
 }
-.header__cross {
+
+._cross,
+ ._page {
     display:none;
 }
 ._logo {
@@ -73,6 +67,7 @@ header {
         position: fixed;
         bottom: 0;
         left: 0;
+        padding:5px;
     }
     ._burger {
         display:flex;

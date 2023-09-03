@@ -25,5 +25,4 @@ footer {
     flex:1 1 300px;
     display:flex;
     padding-bottom:20px;
-    border-bottom:2px solid var(--back0);
 }

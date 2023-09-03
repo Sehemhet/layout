@@ -1,30 +1,31 @@
 :root {
-    --header_text:rgba();
-    --header_back:rgba();
-
-    --title: rgba(125, 125, 125,1);
-    --subtitle: rgba(100,100,100,1);
-    --chapter: rgba(75,75,75,1);
-    --text: rgba(50, 50, 50,1);
-
-    --back0: rgba(240,240,240,0.9);
-    --back1: rgba(220,220,220,0.8);
-    --back2: rgba(150,150,150,0.8);
-    --back3: rgba(50,50,50,1);
-    --back_modal: rgba(10,10,10,0.8);
-    --back_link: rgba(0, 103, 184,1);
-    --opacity: rgba(0,0,0,0.2);
-
     --back_pag: rgba(0,0,0,0.3);
     --back_pag_hover: rgba(0,0,0,0.5);
     --back_pag_active: rgba(0,0,0,0.7);
 
-    --a_special: rgba(255, 255, 255,1);
-    --a_hover: rgba();
-    --a_active: rgba();
+    --opacity: rgba(0,0,0,0.2);
 
-    --footer_back: rgba(20,20,20,0.9);
-    --footer_chapter: rgba(200,200,200,1);
-    --footer_text: rgba(150,150,150,1);
+    --header_text:rgba(30, 30, 30,1);
+    --header_back:rgba(255,255,255,1);
+
+    --footer_back: rgba(0,0,0,0.9);
+    --footer_chapter: rgba(240, 240, 240,1);
+    --footer_text: rgba(180,180,180,1);
+
+    --burger__back: rgba(0,0,0,0.9);
+    --burger__text: rgba(255,255,255,1);
+
+    --back: rgba(255,255,255,1);
+    --text: rgba(30, 30, 30,1);
+    --title: rgba(140, 140, 140,1);
+    --subtitle: rgba(100,100,100,1);
+    --chapter: rgba(60,60,60,1);
+
+    --modal_back: rgba(0,0,0,0.9);
+    --modal_text: rgba(0,0,0,0.9);
+
+    --close: rgba(255,0,0,1);
+    --link: rgba(0, 103, 184,1);
+    --a_special: rgba(255, 255, 255,1);
 }
 

@@ -8,62 +8,103 @@
     display:flex;
     height:100%;
     width:2px;
-    background: var(--text);
+    background: var(--link);
 }
 
 .burger__add {
     display:flex;
-    flex-direction:column;
     flex-wrap:wrap;
     position:fixed;
-    width:100%;
+    min-width:100%;
     height:100%;
-    background:var(--back0);
-    top:0;
+    background:var(--burger__back);
+    top:0px;
+    left:0px;
     z-index:99;
     padding:20px;
 }
-.burger__add .header__item {
-    display:flex;
-    width:100%;
+.burger__add .header__a span {
+    color: var(--burger__text);
 }
+.burger__add .header__item {
+    flex: 1 1 auto;
+}
+
+/* настройка меню в бургере */
 .burger__add ._nav {
     flex: 1 1 auto;
-    align-items:end;
-    justify-content:space-around;;
 }
-.burger__add .header__nav {
-    flex: 1 1 auto;
-    height:100%;
-}
-.burger__add .header__ul {
-    flex-direction:column;
-    flex: 1 1 auto;
-    height:100%;
-}
-.burger__add ._source {
-    flex: 0 0 40px;
-}
-.burger__add ._callback {
+.burger__add ._nav,
+.burger__add ._source,
+.burger__add ._callback,
+.burger__add ._login,
+.burger__add ._cross,
+.burger__add ._page {
+    display:flex;
     justify-content:flex-end;
+}
+
+.burger__add ._page {
     width:100%;
+}
+
+.burger__add .header__ul {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+
+.burger__add .header__li {
+    display:flex;
+    width:100%;
+    justify-content:flex-end;
+}
+
+.burger__add ._source {
+    width:100%;
+}
+
+.burger__add ._callback,
+ .burger__add ._login,
+  .burger__add ._cross {
+    display:flex;
+    flex: 1 1 40px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.burger__add input {
+    height:40px;
+}
+
+.burger__add ._login__in {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
 }
 
 .burger__add ._burger {
     display:none;
 }
-.burger__add ._login {
-    justify-content:flex-end;
-    width:100%;
-    & * {
-        justify-content:flex-end;
+.burger__add .main__image {
+    height:250px;
+}
 
+.mob__title__page {
+    display:none;
+}
+@media (max-width:768px) {
+    .mob__title__page {
+        display:flex;
+        justify-content:space-around;
+        text-align:center;
+        position:sticky;
+        top:0;
+        left:0;
+        width:100%;
+        background:var(--header_back);
     }
 }
-.burger__add ._logo {
-    justify-content: space-around;
-    flex:1 1 30%;
-}
-.burger__add .header__cross {
-    display:flex;
-}
+
+

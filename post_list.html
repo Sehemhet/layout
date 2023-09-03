@@ -10,8 +10,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!--title mob-->
+<div class="mob__title__page add_shadow">
+    <h3>
+        Посты
+    </h3>
+</div>
 <header class="add_shadow">
     <div class="header__in">
+
+
+        <!-- page -->
+        <div class="header__item _page">
+            <div class="main__item  main__image f f__column f__center gap10">
+                <div class="title f">
+                    <h1 class="shadow_back">
+                        Курсы
+                    </h1>
+                </div>
+                <div class="content f">
+                    <h4 class="shadow_back">
+                        Тяжело в учении, легко в бою
+                    </h4>
+                </div>
+                <img class="" src="./img/wallpaper_post_list.webp" alt="">
+            </div>
+        </div>
+        <!--logo-->
         <div class="header__item _logo">
             <div class="icon">
                 <a class="icon__a" href="index.html">
@@ -19,47 +44,51 @@
                 </a>
             </div>
         </div>
+
+        <!-- nav menu -->
         <div class="header__item _nav">
             <nav class="header__nav">
-                <ul class="nav_ul header__ul">
-                    <li class="nav_li header__li">
-                        <a class="nav_a header__a underline" href="index.html">
-                                    <span class="">
-                                        Главная
-                                    </span>
+                <ul class="header__ul">
+                    <li class="header__li">
+                        <a class="header__a underline" href="index.html">
+                            <span class="">
+                                Главная
+                            </span>
                         </a>
                     </li>
-                    <li class="nav_li header__li">
-                        <a class="nav_a header__a underline" href="post_list.html">
-                                    <span class="">
-                                        Посты
-                                    </span>
+                    <li class="header__li">
+                        <a class="header__a underline" href="post_list.html">
+                            <span class="">
+                                Посты
+                            </span>
                         </a>
                     </li>
-                    <li class="nav_li header__li">
-                        <a class="nav_a header__a underline" href="about.html">
-                                    <span class="">
-                                        О нас
-                                    </span>
+                    <li class="header__li">
+                        <a class="header__a underline" href="about.html">
+                            <span class="">
+                                О нас
+                            </span>
                         </a>
                     </li>
-                    <li class="nav_li header__li">
-                        <a class="nav_a header__a underline" href="gallery.html">
-                                    <span class="">
-                                        Галерея
-                                    </span>
+                    <li class="header__li">
+                        <a class="header__a underline" href="gallery.html">
+                            <span class="">
+                                Галерея
+                            </span>
                         </a>
                     </li>
-                    <li class="nav_li header__li">
-                        <a class="nav_a header__a underline" href="contact.html">
-                                    <span class="">
-                                        Контакты
-                                    </span>
+                    <li class="header__li">
+                        <a class="header__a underline" href="contact.html">
+                            <span class="">
+                                Контакты
+                            </span>
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
+
+        <!--source form-->
         <div class="header__item _source">
             <form class="form form__source" action="" method="post">
                 <input type="text">
@@ -68,13 +97,17 @@
                 </div>
             </form>
         </div>
+
+        <!-- callback form -->
         <div class="header__item _callback">
             <div class="icon hover" onclick="openModal('callback')">
                 <img class="icon_img" src="./img/icon/mail.webp" alt="">
             </div>
         </div>
+
+        <!-- profile -->
         <div class="header__item _login">
-            <div class="f f__around f__center gap10">
+            <div class="_login__in f f__around f__center gap10">
                 <div class="icon hover __login" onclick="openModal('login')">
                     <img class="icon_img" src="./img/icon/enter.webp" alt="">
                 </div>
@@ -83,6 +116,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- burger menu -->
         <div class="header__item _burger" onclick="openBurger()">
             <div class="burger hover">
                 <span></span>
@@ -90,14 +125,17 @@
                 <span></span>
             </div>
         </div>
+
+        <!-- cross icon -->
         <div class="header__item _cross">
             <div class="header__cross" onclick="closeBurger()">
-                <div class="cross  hover">
+                <div class="cross hover">
                     <span></span>
                     <span></span>
                 </div>
             </div>
         </div>
+
     </div>
 </header>
 <main>
@@ -106,7 +144,7 @@
         <div class="main__item  main__image f f__column f__center gap10">
             <div class="title f">
                 <h1 class="shadow_back">
-                    Курсы
+                    Посты
                 </h1>
             </div>
             <div class="content f">
@@ -119,7 +157,7 @@
         <div class="main__item">
             <div class="f f__wrap gap20">
 
-                <div class="f gap30 back_post f__wrap">
+                <div class="f shadow gap30 back_post f__wrap">
                     <div class="h200px f__300 w100">
                         <img class="img_cover" src="./img/images/work.webp" alt="">
                     </div>
@@ -144,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post f__wrap">
+                <div class="f shadow gap30 back_post f__wrap">
                     <div class="h200px f__300 w100">
                         <img class="img_cover" src="./img/images/cat.webp" alt="">
                     </div>
@@ -169,7 +207,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post f__wrap">
+                <div class="f shadow gap30 back_post f__wrap">
                     <div class="h200px f__300 w100">
                         <img class="img_cover" src="./img/images/derevo.webp" alt="">
                     </div>
@@ -194,7 +232,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post">
+                <div class="f shadow gap30 back_post">
                     <div class="h200px w100">
                         <img class="img_cover" src="./img/images/cross.webp" alt="">
                     </div>
@@ -238,7 +276,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post">
+                <div class="f shadow gap30 back_post">
                     <div class="h200px w100">
                         <img class="img_cover" src="./img/images/cat.webp" alt="">
                     </div>
@@ -263,7 +301,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post">
+                <div class="f shadow gap30 back_post">
                     <div class="h200px w100">
                         <img class="img_cover" src="./img/images/derevo.webp" alt="">
                     </div>
@@ -288,7 +326,7 @@
                     </div>
                 </div>
 
-                <div class="f gap30 back_post">
+                <div class="f shadow gap30 back_post">
                     <div class="h200px w100">
                         <img class="img_cover" src="./img/images/cross.webp" alt="">
                     </div>

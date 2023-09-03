@@ -8,7 +8,7 @@
     display:flex;
     width:100%;
     height:2px;
-    background:var(--text);
+    background:var(--close);
     position:absolute;
     margin-top:50%;
 }

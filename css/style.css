@@ -18,13 +18,7 @@
     position:absolute;
 }
 
-/*
-* {
-    background:rgba(0,0,0,0.1);
-}
-
-*/
-/*
-* {
-    border:1px solid green;
+.shadow {
+    box-shadow: 0 0 50px -10px var(--title);
+    padding: 1.2rem;
 }
