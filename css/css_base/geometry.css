@@ -19,6 +19,16 @@
 .max_h300px {
     max-height:300px;
 }
+
+
+.pad30l {
+    padding-left:30px;
+}
+.pad10lr {
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .padding20tb {
     padding-top:20px;
     padding-bottom:20px;

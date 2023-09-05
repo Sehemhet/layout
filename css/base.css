@@ -19,49 +19,49 @@ a:active {
 }
 h1 {
     font-family:'Mak';
-    color: var(--title);
+    color: var(--l1);
     font-weight:900;
     font-size:44px;
 }
 h2 {
     font-family:'Mak';
-    color: var(--subtitle);
+    color: var(--l1);
     font-weight:800;
     font-size:36px;
 }
 h3 {
     font-family:'Mak';
-    color: var(--chapter);
+    color: var(--l1);
     font-weight:700;
     font-size:28px;
 }
 h4 {
     font-family:'Roboto';
-    color: var(--chapter);
+    color: var(--l1);
     font-weight:900;
     font-size:26px;
 }
 li {
-    color: var(--link);
+    color: var(--l3);
     font-family:'Roboto';
     font-weight:500;
     font-size:20px;
 }
 p {
-    color: var(--text);
+    color: var(--l2);
     font-family:'Roboto';
     font-weight:300;
     font-size:20px;
     display:flex;
 }
 span {
-    color: var(--text);
+    color: var(--l2);
     font-weight:300;
     font-family:'Roboto';
     font-size:20px;
 }
 .text__difference {
-    color: var(--back);
+    color: var(--l1);
     mix-blend-mode: difference;
 }
 
@@ -86,12 +86,12 @@ span {
     width:100%;
     height:100%;
     padding:5px;
-    background: var(--link);
+    background: var(--l1);
     font-weight:900;
     text-align:center;
 }
 .link a * {
-    color: var(--a_special);
+    color: var(--l4);
 }
 .img_contain {
     object-fit:contain;
@@ -105,7 +105,7 @@ span {
 
 
 .back_post {
-    background:var(--back);
+    background:var(--l4);
     padding:5px;
     border-radius:5px;
 }

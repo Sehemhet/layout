@@ -13,7 +13,7 @@ input, button, textarea {
     font-family:'Roboto';
     border-radius:5px;
     width:100%;
-    background: var(--back);
+    background: var(--l4);
     height:100%;
     font-size:16px;
     justify-content:space-around;
@@ -21,12 +21,12 @@ input, button, textarea {
 }
 input::placeholder {
     font-family:'Roboto';
-    color: var(--text);
+    color: var(--l2);
     font-size:16px;
 }
 textarea::placeholder {
     font-family:'Roboto';
-    color: var(--text);
+    color: var(--l2);
     font-size:16px;
 }
 

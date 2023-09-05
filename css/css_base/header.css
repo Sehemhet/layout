@@ -3,6 +3,7 @@ header {
     position: sticky;
     z-index: 10;
     top:0;
+    background:var(--l4);
 }
 .header__in {
     min-height:5vh;
@@ -13,7 +14,6 @@ header {
     margin:0 auto;
     gap:5px;
     width: 100%;
-    background:var(--header_back);
     position:relative;
 }
 
@@ -30,7 +30,7 @@ header {
 }
 .header__a {
     font-size: 18px;
-    color: var(--header_text);
+    color: var(--l3);
     white-space: nowrap;
     padding-top:5px;
     padding-bottom:5px;

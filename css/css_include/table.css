@@ -1,7 +1,6 @@
 table {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 14px;
-  background: var(--back);
   max-width: 100%;
   width: 100%;
   border-collapse: collapse;
@@ -9,21 +8,21 @@ table {
 }
 th {
   font-weight: normal;
-  color: var(--back_link);
-  border-bottom: 2px solid var(--link);
+  color: var(--l3);
+  border-bottom: 2px solid var(--l3);
   padding: 10px 8px;
 }
 td {
-  color: var(--link);
+  color: var(--l3);
   padding: 9px 8px;
   transition: .3s linear;
 }
 tr:hover td {
-  color: var(--back_link);
+  color: var(--l3);
 }
 td {
-  border-bottom: 1px solid var(--link);
-  color: var(--text);
+  border-bottom: 1px solid var(--l3);
+  color: var(--l2);
   padding: 9px 8px;
   transition: .3s linear;
 }

@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    background: var(--footer_back);
+    background: var(--l1);
     padding:10px;
 }
 .footer__in {
@@ -13,12 +13,12 @@ footer {
     flex-wrap:wrap;
 }
 .footer__in h4 {
-    color: var(--footer_chapter);
+    color: var(--l4);
 }
 .footer__in span,
 .footer__in p,
 .footer__in li {
-    color: var(--footer_text);
+    color: var(--l3);
 }
 
 .footer__item {
